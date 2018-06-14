@@ -1,0 +1,67 @@
+#bild {
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+h1 {
+  font-size: 200px;
+  font-family: bitter, serif;
+  font-weight: bold;
+  color: white;
+  padding-left: 300px;
+}
+
+p {
+  font-size: 25px;
+  font-family: open sans, Helvetica, sans-serif;
+  color: white;
+  padding-left: 300px;
+  display: block;
+
+}
+
+div.middlecol {
+    font-family: open sans, Helvetica, sans-serif;
+    font-weight: light;
+    font-weight: lighter;
+    font-style: oblique;
+    background-color: #ffe349;
+    margin-left: 280px; /* Same as the width of the sidebar */
+    height: 100%;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+div.navi {
+    font-family: open sans, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+    background-color: #0A0A0A;
+    clear:right;
+    height: 100%;
+    width:250px;
+    position:fixed;
+    z-index: 2; /*stay on top */
+    top: 0; /* stay AT the top*/
+    left:0;
+    overflow-x: hidden; /*disable horizontal scroll*/
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+div.navi a {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: #F8F8FF;
+}
+
+div.navi a:hover {
+    color: #EE1289;
+}
